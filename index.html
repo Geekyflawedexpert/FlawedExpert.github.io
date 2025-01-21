@@ -3,31 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhav Singh Portfolio</title>
+    <title>Abhav Singh - ML Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="box" id="finance">
-            <div class="icon">&#128179;</div>
-            <h3>Finance Resume</h3>
-            <p>Explore my finance journey.</p>
-            <a href="finance_resume.pdf" target="_blank">View Resume</a>
+    <header>
+        <div class="hero">
+            <h1>Abhav Singh</h1>
+            <p>Machine Learning Enthusiast | Data Scientist | Tech Innovator</p>
         </div>
-
-        <div class="box" id="tech">
-            <div class="icon">&#128187;</div>
-            <h3>Tech Resume</h3>
-            <p>Discover my tech expertise.</p>
-            <a href="tech_resume.pdf" target="_blank">View Resume</a>
-        </div>
-
-        <div class="box" id="projects">
-            <div class="icon">&#128295;</div>
-            <h3>Projects</h3>
-            <p>Check out my latest projects.</p>
-            <a href="projects.html" target="_blank">View Projects</a>
-        </div>
-    </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Passionate about leveraging machine learning to solve real-world problems. With a strong foundation in algorithms, I specialize in creating data-driven solutions.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">Python</div>
+                <div class="skill">TensorFlow</div>
+                <div class="skill">PyTorch</div>
+                <div class="skill">Scikit-learn</div>
+                <div class="skill">Data Visualization</div>
+                <div class="skill">Natural Language Processing</div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>Project 1: Stock Price Prediction</h3>
+                    <p>Built a predictive model using LSTM to forecast stock prices, achieving high accuracy on test data.</p>
+                    <a href="#">View Details</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2: Image Classification</h3>
+                    <p>Developed a CNN to classify images into categories, achieving a top-1 accuracy of 90% on a custom dataset.</p>
+                    <a href="#">View Details</a>
+                </div>
+                <!-- More project cards -->
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you're interested in collaborating or learning more, feel free to reach out!</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Abhav Singh. All rights reserved.</p>
+    </footer>
 </body>
 </html>
